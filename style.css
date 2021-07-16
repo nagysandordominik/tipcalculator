@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-  main {
+main {
     font-family: 'Space Mono', monospace;
     min-height: 100vh;
     background: hsl(185, 41%, 84%);
@@ -12,11 +12,11 @@
     justify-content: center;
 }
 
-  span{
+span{
     display: block;
 }
 input{
-  width: 88%;
+  width: 91%;
   height: 3rem;
   background: hsla(189, 0%, 96%, 1);
   border: none;
@@ -44,30 +44,29 @@ input::placeholder{
       text-align: left;
       justify-content: space-evenly;
       flex-direction: column;
-      padding-left: 2rem;
+      padding-left: 1rem;
 }
 .leftSide h4{
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
 }
-  .rightSide{
+.rightSide{
       flex:1;
       background: hsl(183, 100%, 15%);
       border-radius: 2rem;
 }
 
-  .rightSide h4{
+.rightSide h4{
   color:whitesmoke
 }
 
-  .rightSide p{
+.rightSide p{
   color: hsl(185, 41%, 84%)
 }
 
-  #reset{
+#reset{
   align-items: flex-end;
-  margin-top: 3rem;
   height: 3rem;
-  width: 20rem;
+  width: 22rem;
   border-radius: 0.5rem;
   background:  hsla(172, 67%, 64%, 1);
   font-family: 'Space Mono', monospace;
@@ -75,21 +74,30 @@ input::placeholder{
   font-size: 20px;
   color: hsl(183, 100%, 15%);
   border: none;
+
+}
+#up{
+  padding-bottom: 1rem;
 }
 
-  .tipcalc{
+.tipcalc{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   margin: 3rem;
-  gap: 5rem;
+}
+.tipcalc span{
+  padding-bottom: 9rem;
 }
 .bill{
   margin-bottom: 6rem;
 }
+
 .tips{
   margin-bottom: 6rem;
+  
 }
+
 .tips button{
   background: hsl(183, 100%, 15%);
   width: 9.5rem;
@@ -100,4 +108,18 @@ input::placeholder{
   font-family: 'Space Mono', monospace;
   font-size: 2em;
   font-weight: 700;
+}
+
+.tips button:hover{
+  background: hsla(172, 67%, 64%, 1);
+  color: hsl(183, 100%, 15%);
+  transition:  0.5s ease-in-out;
+}
+
+#reset:hover{
+  background: hsl(189, 41%, 97%);
+  transition:  0.5s;  
+}
+input[type="text"].billinput:hover{
+  border: solid 1px green
 }
