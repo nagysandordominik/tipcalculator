@@ -15,10 +15,23 @@
   span{
     display: block;
 }
+input{
+  width: 88%;
+  height: 3rem;
+  background: hsla(189, 0%, 96%, 1);
+  border: none;
+  border-radius: 0.5rem;
+  font-family: 'Space Mono', monospace;
+}
+input::placeholder{
+  font-size: 20px;
+  padding-left: 1rem;
+  
+}
   .dashboard {
     background: white;
     min-height: 50vh;
-    width: 60%;
+    width: 55%;
     border-radius: 2rem;
     display: flex;
     flex-direction: row;
@@ -29,9 +42,12 @@
       flex:1.5;
       align-items: center;
       text-align: left;
-      gap: 5rem;
       justify-content: space-evenly;
       flex-direction: column;
+      padding-left: 2rem;
+}
+.leftSide h4{
+  padding-bottom: 0.5rem;
 }
   .rightSide{
       flex:1;
@@ -42,12 +58,7 @@
   .rightSide h4{
   color:whitesmoke
 }
-input.empty {
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-}
+
   .rightSide p{
   color: hsl(185, 41%, 84%)
 }
@@ -72,4 +83,21 @@ input.empty {
   justify-content: space-evenly;
   margin: 3rem;
   gap: 5rem;
+}
+.bill{
+  margin-bottom: 6rem;
+}
+.tips{
+  margin-bottom: 6rem;
+}
+.tips button{
+  background: hsl(183, 100%, 15%);
+  width: 9.5rem;
+  height: 3rem;
+  color: whitesmoke;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: 'Space Mono', monospace;
+  font-size: 2em;
+  font-weight: 700;
 }
