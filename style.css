@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   main {
     font-family: 'Space Mono', monospace;
     min-height: 100vh;
@@ -10,12 +10,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  hr{
-    display: none;
-    margin: 0;
-  }
+  span{
+    display: block;
+}
   .dashboard {
     background: white;
     min-height: 50vh;
@@ -25,32 +24,48 @@
     flex-direction: row;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 2rem;
-  }
+}
   .leftSide{
       flex:1.5;
       align-items: center;
       text-align: left;
- 
-  
-  }
+      gap: 5rem;
+      justify-content: space-evenly;
+      flex-direction: column;
+}
   .rightSide{
       flex:1;
       background: hsl(183, 100%, 15%);
       border-radius: 2rem;
-  }
+}
+
   .rightSide h4{
   color:whitesmoke
+}
+input.empty {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
 }
   .rightSide p{
   color: hsl(185, 41%, 84%)
 }
-  .tipcalc button{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 4rem;
-  
+
+  #reset{
+  align-items: flex-end;
+  margin-top: 3rem;
+  height: 3rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  background:  hsla(172, 67%, 64%, 1);
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(183, 100%, 15%);
+  border: none;
 }
+
   .tipcalc{
   display: flex;
   flex-direction: column;

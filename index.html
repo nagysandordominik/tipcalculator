@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
 
   <title>Frontend Mentor | Tip calculator app</title>
   <style>
@@ -29,31 +30,54 @@
     <div class="dashboard">
       <div class="leftSide">
         <div class="bill">
-          <h4>Bill</h4>
+          <span>
+
+            <h4>Bill</h4>
+            <input type="text" placeholder="$" />
+
+          </span>
         </div>
         <div class="tips">
           Select Tip %
-          <button>5%</button>
-          <button>10%</button>
-          <button>15%</button>
-          <button>25%</button>
-          <button>50%</button>
-          <button>Custom</button>
+          <span>
+
+            <button>5%</button>
+            <button>10%</button>
+            <button>15%</button>
+            <button>25%</button>
+            <button>50%</button>
+            <button>Custom</button>
+
+          </span>
         </div>
         <div class="peoplenum">
-          <h4>Number of People</h4>
+          <span>
+
+            <h4>Number of People</h4>
+            <input type="text" placeholder="&#xf406;" style="font-family: Arial, 'Font Awesome 5 Free'" />
+          </span>
+
         </div>
       </div>
       <div class="rightSide">
         <div class="tipcalc">
-          <hr>
-          <h4>Tip Amount</h4>
-          <p>/ person</p>
-          <hr>
-          <h4>Total</h4>
-          <p>/ person</p>
+
+          <span>
+            <h4>Tip Amount</h4>
+            <p>/ person</p>
+          </span>
+
+          <span>
+            <h4>Total</h4>
+            <p>/ person</p>
+          </span>
+
+
+          <button id="reset">RESET</button>
+
+
         </div>
-        <button>Reset</button>
+
       </div>
     </div>
   </main>
