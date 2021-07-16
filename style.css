@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main {
+    font-family: 'Space Mono', monospace;
+    min-height: 100vh;
+    background: hsl(185, 41%, 84%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  hr{
+    display: none;
+    margin: 0;
+  }
+  .dashboard {
+    background: white;
+    min-height: 50vh;
+    width: 60%;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem;
+  }
+  .leftSide{
+      flex:1.5;
+      align-items: center;
+      text-align: left;
+ 
+  
+  }
+  .rightSide{
+      flex:1;
+      background: hsl(183, 100%, 15%);
+      border-radius: 2rem;
+  }
+  .rightSide h4{
+  color:whitesmoke
+}
+  .rightSide p{
+  color: hsl(185, 41%, 84%)
+}
+  .tipcalc button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  
+}
+  .tipcalc{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 3rem;
+  gap: 5rem;
+}
