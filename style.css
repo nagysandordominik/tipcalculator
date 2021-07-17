@@ -1,142 +1,142 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 main {
-    font-family: 'Space Mono', monospace;
-    min-height: 100vh;
-    background: hsl(185, 41%, 84%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  font-family: 'Space Mono', monospace;
+  min-height: 100vh;
+  background: hsl(185, 41%, 84%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 span{
-    display: block;
+  display: block;
 }
 input{
-  width: 91%;
-  height: 3rem;
-  background: hsla(189, 0%, 96%, 1);
-  border: none;
-  border-radius: 0.5rem;
-  font-family: 'Space Mono', monospace;
+width: 91%;
+height: 3rem;
+background: hsla(189, 0%, 96%, 1);
+border: none;
+border-radius: 0.5rem;
+font-family: 'Space Mono', monospace;
 }
 
-  .dashboard {
-    background: white;
-    min-height: 50vh;
-    width: 55%;
-    border-radius: 2rem;
-    display: flex;
-    flex-direction: row;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 2rem;
+.dashboard {
+  background: white;
+  min-height: 50vh;
+  width: 55%;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 2rem;
 }
-  .leftSide{
-      flex:1.5;
-      align-items: center;
-      text-align: left;
-      justify-content: space-evenly;
-      flex-direction: column;
-      padding-left: 1rem;
+.leftSide{
+    flex:1.5;
+    align-items: center;
+    text-align: left;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-left: 1rem;
 }
 .leftSide h4{
-  padding-bottom: 1rem;
+padding-bottom: 1rem;
 }
 .rightSide{
-      flex:1;
-      background: hsl(183, 100%, 15%);
-      border-radius: 2rem;
+    flex:1;
+    background: hsl(183, 100%, 15%);
+    border-radius: 2rem;
 }
 
 .rightSide h4{
-  color:whitesmoke
+color:whitesmoke
 }
 
 .rightSide p{
-  color: hsl(185, 41%, 84%)
+color: hsl(185, 41%, 84%)
 }
 
 .bill{
-  margin-bottom: 3rem;
+margin-bottom: 3rem;
 }
 
 .tips{
-  margin-bottom: 3rem;
-  
+margin-bottom: 3rem;
+
 }
 .tips button{
-  background: hsl(183, 100%, 15%);
-  width: 9.5rem;
-  height: 3rem;
-  color: whitesmoke;
-  border-radius: 0.5rem;
-  border: none;
-  font-family: 'Space Mono', monospace;
-  font-size: 2em;
-  font-weight: 700;
+background: hsl(183, 100%, 15%);
+width: 9.5rem;
+height: 3rem;
+color: whitesmoke;
+border-radius: 0.5rem;
+border: none;
+font-family: 'Space Mono', monospace;
+font-size: 2em;
+font-weight: 700;
 }
 
 .tips button:hover{
-  background: hsla(172, 67%, 64%, 1);
-  color: hsl(183, 100%, 15%);
-  transition:  0.5s ease-in-out;
+background: hsla(172, 67%, 64%, 1);
+color: hsl(183, 100%, 15%);
+transition:  0.5s ease-in-out;
 }
 
 
 #up{
-  padding-bottom: 1rem;
+padding-bottom: 1rem;
 }
 
 #custom{
-  background: hsla(189, 0%, 96%, 1);
-  color: hsl(186, 14%, 43%);
+background: hsla(189, 0%, 96%, 1);
+color: hsl(186, 14%, 43%);
 
 }
 
-.tipcalc{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin: 3rem;
+.tipCalc{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+margin: 3rem;
 }
 
-.tipcalc span{
-  padding-bottom: 6rem;
+.tipCalc span{
+padding-bottom: 6rem;
 }
 
 
 #reset{
-  align-items: flex-end;
-  height: 3rem;
-  width: 22rem;
-  border-radius: 0.5rem;
-  background:  hsla(172, 67%, 64%, 1);
-  font-family: 'Space Mono', monospace;
-  font-weight: 700;
-  font-size: 20px;
-  color: hsl(183, 100%, 15%);
-  border: none;
+align-items: flex-end;
+height: 3rem;
+width: 22rem;
+border-radius: 0.5rem;
+background:  hsla(172, 67%, 64%, 1);
+font-family: 'Space Mono', monospace;
+font-weight: 700;
+font-size: 20px;
+color: hsl(183, 100%, 15%);
+border: none;
 
 }
 
 #reset:hover{
-  background: hsl(189, 41%, 97%);
-  transition:  0.5s;  
+background: hsl(189, 41%, 97%);
+transition:  0.5s;  
 }
 
-.billinput:focus{
-  outline: solid 2px hsla(172, 67%, 64%, 1);
-  border-radius: 0.5rem;
+.billInput:focus{
+outline: solid 2px hsla(172, 67%, 64%, 1);
+border-radius: 0.5rem;
 }
-.peopleinput:focus{
-  outline: solid 2px hsla(172, 67%, 64%, 1);
-  border-radius: 0.5rem;
+.peopleInput:focus{
+outline: solid 2px hsla(172, 67%, 64%, 1);
+border-radius: 0.5rem;
 }
 input::placeholder{
-  font-size: 20px;
-  padding-left: 1rem;
-  
+font-size: 20px;
+padding-left: 1rem;
+
 }
