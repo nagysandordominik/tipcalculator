@@ -24,19 +24,6 @@ input{
   font-family: 'Space Mono', monospace;
 }
 
-.billinput:focus{
-  outline: solid 2px hsla(172, 67%, 64%, 1);
-  border-radius: 0.5rem;
-}
-.peopleinput:focus{
-  outline: solid 2px hsla(172, 67%, 64%, 1);
-  border-radius: 0.5rem;
-}
-input::placeholder{
-  font-size: 20px;
-  padding-left: 1rem;
-  
-}
   .dashboard {
     background: white;
     min-height: 50vh;
@@ -72,41 +59,14 @@ input::placeholder{
   color: hsl(185, 41%, 84%)
 }
 
-#reset{
-  align-items: flex-end;
-  height: 3rem;
-  width: 22rem;
-  border-radius: 0.5rem;
-  background:  hsla(172, 67%, 64%, 1);
-  font-family: 'Space Mono', monospace;
-  font-weight: 700;
-  font-size: 20px;
-  color: hsl(183, 100%, 15%);
-  border: none;
-
-}
-#up{
-  padding-bottom: 1rem;
-}
-
-.tipcalc{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin: 3rem;
-}
-.tipcalc span{
-  padding-bottom: 9rem;
-}
 .bill{
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 
 .tips{
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
   
 }
-
 .tips button{
   background: hsl(183, 100%, 15%);
   width: 9.5rem;
@@ -125,7 +85,58 @@ input::placeholder{
   transition:  0.5s ease-in-out;
 }
 
+
+#up{
+  padding-bottom: 1rem;
+}
+
+#custom{
+  background: hsla(189, 0%, 96%, 1);
+  color: hsl(186, 14%, 43%);
+
+}
+
+.tipcalc{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 3rem;
+}
+
+.tipcalc span{
+  padding-bottom: 6rem;
+}
+
+
+#reset{
+  align-items: flex-end;
+  height: 3rem;
+  width: 22rem;
+  border-radius: 0.5rem;
+  background:  hsla(172, 67%, 64%, 1);
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(183, 100%, 15%);
+  border: none;
+
+}
+
 #reset:hover{
   background: hsl(189, 41%, 97%);
   transition:  0.5s;  
+}
+
+.billinput:focus{
+  outline: solid 2px hsla(172, 67%, 64%, 1);
+  border-radius: 0.5rem;
+}
+.peopleinput:focus{
+  outline: solid 2px hsla(172, 67%, 64%, 1);
+  border-radius: 0.5rem;
+}
+input::placeholder{
+  font-size: 20px;
+  padding-left: 1rem;
+  
 }
