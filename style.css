@@ -76,7 +76,7 @@ margin-bottom: 3rem;
 }
 
 .billInput:focus{
-  outline: solid 2px hsla(172, 67%, 64%, 1);
+  outline: solid 2.5px hsla(172, 67%, 64%, 1);
   border-radius: 0.5rem;
   }
 
@@ -84,7 +84,8 @@ margin-bottom: 3rem;
 margin-bottom: 3rem;
 
 }
-.tips button{
+
+.tipButton{
 background: hsl(183, 100%, 15%);
 width: 9.5rem;
 height: 3rem;
@@ -94,12 +95,12 @@ border: none;
 font-family: 'Space Mono', monospace;
 font-size: 2em;
 font-weight: 700;
+text-align: center;
 }
 
-.tips button:hover{
+.tipButton:hover{
 background: hsla(172, 67%, 64%, 1);
 color: hsl(183, 100%, 15%);
-transition:  0.5s ease-in-out;
 }
 
 #up{
@@ -107,14 +108,31 @@ transition:  0.5s ease-in-out;
   }
 
 .peopleInput:focus{
-  outline: solid 2px hsla(172, 67%, 64%, 1);
+  outline: solid 2.5px hsla(172, 67%, 64%, 1);
   border-radius: 0.5rem;
   }
 
 #custom{
 background: hsla(189, 0%, 96%, 1);
 color: hsl(186, 14%, 43%);
+width: 9.5rem;
+height: 3rem;
+color: whitesmoke;
+border-radius: 0.5rem;
+border: none;
+font-family: 'Space Mono', monospace;
+font-size: 2em;
+font-weight: 700;
+text-align: center;
+}
 
+
+#custom:focus{
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 2em;
+  color: hsl(183, 100%, 15%);
+  outline: solid 2.5px hsla(172, 67%, 64%, 1);
 }
 
 .tipCalc{
