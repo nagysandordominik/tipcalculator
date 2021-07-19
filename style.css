@@ -16,17 +16,23 @@ span{
   display: block;
 }
 input{
-width: 91%;
-height: 3rem;
-background: hsla(189, 0%, 96%, 1);
-border: none;
-border-radius: 0.5rem;
-font-family: 'Space Mono', monospace;
+  width: 91%;
+  height: 3rem;
+  background: hsla(189, 0%, 96%, 1);
+  border: none;
+  border-radius: 0.5rem;
+  text-align: right;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: hsl(183, 100%, 15%);
 }
 
 input::placeholder{
   font-size: 20px;
   padding-left: 1rem;
+  text-align: left;
   
   }
 
@@ -119,7 +125,7 @@ margin: 3rem;
 }
 
 .tipCalc span{
-padding-bottom: 6rem;
+padding-bottom: 1.5rem;
 }
 
 #tipAmount{
