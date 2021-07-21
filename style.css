@@ -16,7 +16,7 @@ span{
   display: block;
 }
 input{
-  width: 91%;
+  width: 92%;
   height: 3rem;
   background: hsla(189, 0%, 96%, 1);
   border: none;
@@ -35,7 +35,6 @@ input::placeholder{
   text-align: left;
   
   }
-
 .dashboard {
   background: white;
   min-height: 50vh;
