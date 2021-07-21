@@ -102,7 +102,7 @@ input::placeholder{
   color: hsl(183, 100%, 15%);
 }
 
-#up{
+.up{
   padding-bottom: 1rem;
   }
 
@@ -174,8 +174,19 @@ input::placeholder{
   font-size: 20px;
   color: hsl(183, 100%, 15%);
   border: none;
+}
 
-
+#calculate{
+  align-items: flex-end;
+  height: 3rem;
+  width: 22rem;
+  border-radius: 0.5rem;
+  background:  hsla(172, 67%, 64%, 1);
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(183, 100%, 15%);
+  border: none;
 }
 
 #reset:hover{
