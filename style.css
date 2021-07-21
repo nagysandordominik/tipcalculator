@@ -74,7 +74,7 @@ input::placeholder{
   margin-bottom: 3rem;
 }
 
-.billInput:focus{
+#billInput:focus{
   outline: solid 2.5px hsla(172, 67%, 64%, 1);
   border-radius: 0.5rem;
   }
@@ -97,10 +97,11 @@ input::placeholder{
   text-align: center;
 }
 
-.tipButton:hover{
+.tipButton:focus{
   background: hsla(172, 67%, 64%, 1);
   color: hsl(183, 100%, 15%);
 }
+
 
 .up{
   padding-bottom: 1rem;
@@ -194,4 +195,15 @@ input::placeholder{
   transition:  0.5s;  
 }
 
-
+#calculate:hover{
+  background: hsl(189, 41%, 97%);
+  transition:  0.5s;  
+}
+#calculate:active{
+  font-size: 17px;
+  
+}
+#reset:active{
+  font-size: 17px;
+  
+}
