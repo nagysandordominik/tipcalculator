@@ -54,7 +54,7 @@ input::placeholder{
     padding-left: 1rem;
 }
 .leftSide h4{
-padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 .rightSide{
     flex:1;
@@ -63,15 +63,15 @@ padding-bottom: 1rem;
 }
 
 .rightSide h4{
-color:whitesmoke
+  color:whitesmoke
 }
 
 .rightSide p{
-color: hsl(185, 41%, 84%)
+  color: hsl(185, 41%, 84%)
 }
 
 .bill{
-margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .billInput:focus{
@@ -80,26 +80,26 @@ margin-bottom: 3rem;
   }
 
 .tips{
-margin-bottom: 3rem;
+  margin-bottom: 3rem;
 
 }
 
 .tipButton{
-background: hsl(183, 100%, 15%);
-width: 9.5rem;
-height: 3rem;
-color: whitesmoke;
-border-radius: 0.5rem;
-border: none;
-font-family: 'Space Mono', monospace;
-font-size: 2em;
-font-weight: 700;
-text-align: center;
+  background: hsl(183, 100%, 15%);
+  width: 9.5rem;
+  height: 3rem;
+  color: whitesmoke;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: 'Space Mono', monospace;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
 }
 
 .tipButton:hover{
-background: hsla(172, 67%, 64%, 1);
-color: hsl(183, 100%, 15%);
+  background: hsla(172, 67%, 64%, 1);
+  color: hsl(183, 100%, 15%);
 }
 
 #up{
@@ -112,17 +112,17 @@ color: hsl(183, 100%, 15%);
   }
 
 #custom{
-background: hsla(189, 0%, 96%, 1);
-color: hsl(186, 14%, 43%);
-width: 9.5rem;
-height: 3rem;
-color: whitesmoke;
-border-radius: 0.5rem;
-border: none;
-font-family: 'Space Mono', monospace;
-font-size: 2em;
-font-weight: 700;
-text-align: center;
+  background: hsla(189, 0%, 96%, 1);
+  color: hsl(186, 14%, 43%);
+  width: 9.5rem;
+  height: 3rem;
+  color: whitesmoke;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: 'Space Mono', monospace;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
 }
 
 
@@ -135,14 +135,14 @@ text-align: center;
 }
 
 .tipCalc{
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 3rem;
 }
 
 .tipCalc span{
-padding-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 #tipAmount{
@@ -164,22 +164,23 @@ padding-bottom: 1.5rem;
 }
 
 #reset{
-align-items: flex-end;
-height: 3rem;
-width: 22rem;
-border-radius: 0.5rem;
-background:  hsla(172, 67%, 64%, 1);
-font-family: 'Space Mono', monospace;
-font-weight: 700;
-font-size: 20px;
-color: hsl(183, 100%, 15%);
-border: none;
+  align-items: flex-end;
+  height: 3rem;
+  width: 22rem;
+  border-radius: 0.5rem;
+  background:  hsla(172, 67%, 64%, 1);
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(183, 100%, 15%);
+  border: none;
+
 
 }
 
 #reset:hover{
-background: hsl(189, 41%, 97%);
-transition:  0.5s;  
+  background: hsl(189, 41%, 97%);
+  transition:  0.5s;  
 }
 
 
