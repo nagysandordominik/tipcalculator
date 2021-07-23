@@ -20,3 +20,11 @@ const tipBtns = document.querySelectorAll('.tipButton');
 const tipCustom = document.getElementById('custom');
 const people = document.getElementById('peopleInput');
 const resetBtn = document.querySelector('reset');
+
+bill.addEventListener('input', setBillValue);
+tipBtns.forEach(btn => {
+    btn.addEventListener('click', handleClick);
+});
+tipCustom.addEventListener('input', setTipCustomValue);
+people.addEventListener('input', setPeopleValue);
+resetBtn.addEventListener('click', reset);
