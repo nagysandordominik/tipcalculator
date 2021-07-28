@@ -22,6 +22,7 @@
 }
 html{
   background:hsl(185, 41%, 84%); ;
+  
 }
 body{
   margin: 0;
@@ -72,6 +73,7 @@ button{
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   background:var(--white);
+  
 }
 
 .content-container input {
@@ -138,8 +140,9 @@ button{
   background: var(--very-dark-cyan);
   color: var(--white);
   border-radius: 5px;
-  font-size: 1.15rem;
+  font-size: 1.3rem;
   font-weight: 700;
+  font-family: var(--ff),sans-serif;
 }
 
 .choosetip-container .tip-container input{
@@ -221,6 +224,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .choosetip-container .tip-container button.selected{
   background-color: var(--strong-cyan);
+  color: var(--very-dark-cyan);
 }
 
 
