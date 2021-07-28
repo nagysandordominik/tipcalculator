@@ -27,97 +27,58 @@
 
 <body>
   <main>
-    <div class="dashboard">
-
-      <div class="leftSide">
-
-        <div class="bill">
-          <span>
-
-            <h4>Bill</h4>
-
-            <input type="number" placeholder="$" id="billInput">
-
-          </span>
-        </div>
-        <div class="tips">
-
-          <h4>Select Tip %</h4>
-
-          <div class="up">
-            <input class="tipButton" type="button" value="5" id="five">
-            <input class="tipButton" type="button" value="10" id="ten">
-            <input class="tipButton" type="button" value="15" id="fifteen">
-          </div>
-
-          <input class="tipButton" type="button" value="25" id="twentyfive">
-          <input class="tipButton" type="button" value="50" id="fifty">
-          <input class="tipButton" type="text" name="inp-tip" id="custom" placeholder="Custom">
-
-        </div>
-
-        <div class="peopleNum">
-          <span>
-
-            <h4>Number of People</h4>
-            <input type="text" placeholder="&#xf406;" style="font-family: Arial, 'Font Awesome 5 Free'"
-              class="peopleInput" />
-
-          </span>
-
-        </div>
+    <div class="container">
+      <div class="img-container">
+        <img src="images/logo.svg">
       </div>
-      <div class="rightSide">
-        <div class="tipCalc">
-
-          <span>
-
-            <h4>Tip Amount</h4>
-            <p>/ person</p>
-
-
-
-            <div id="tipAmount">
-              <dt>$</dt>
-              <dd>0.00</dd>
+      <div class="content-container">
+        <div class="selection-container">
+          <h3>Bill</h3>
+          <input type="number" id="bill" placeholder="0">
+          <h3>Select Tip %</h3>
+          <div class="choosetip-container">
+            <div class="tip-container">
+              <button id="5" value="5">5%</button>
             </div>
-          </span>
-
-
-          <span>
-
-            <h4>Total</h4>
-            <p>/ person</p>
-
-
-
-            <div id="perPerson">
-              <dt>$</dt>
-              <dd>0.00</dd>
+            <div class="tip-container">
+              <button id="10" value="10">10%</button>
             </div>
-
-          </span>
-
-          <span>
-
-            <button id="reset">RESET</button>
-
-          </span>
-
-          <button id="calculate">CALCULATE</button>
-
-
-
+            <div class="tip-container">
+              <button id="15" value="15">15%</button>
+            </div>
+            <div class="tip-container">
+              <button id="25" value="25">25%</button>
+            </div>
+            <div class="tip-container">
+              <button id="50" value="50">50%</button>
+            </div>
+            <div class="tip-container">
+              <input id="custom" type="number" placeholder="Custom">
+            </div>
+          </div>
+          <h3>Number of People</h3>
+          <p class="error"></p>
+          <input type="number" id="people" placeholder="0">
         </div>
+        <div class="result-container">
+          <p>Tip Amount<br />
+            <span>/ person</span>
+          </p>
+          <p class="tip-amount">$0.00</p>
 
+          <p>Total<br />
+            <span>/ person</span>
+          </p>
+          <p class="total"> $0.00</p>
+          <div class="button-reset">
+            Reset
+          </div>
+        </div>
       </div>
     </div>
   </main>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
   <script src="app.js"></script>
 </body>
 
