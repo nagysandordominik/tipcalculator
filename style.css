@@ -69,6 +69,7 @@ button{
   padding: 1rem 1.5rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   background:var(--white);
@@ -79,7 +80,9 @@ button{
   color: var(--very-dark-cyan);
   font-weight: 700;
   font-size: 1.3rem;
+  font-family: var(--ff);
   border-radius: 5px;
+  border: none;
 }
 
 .content-container input::placeholder {
@@ -94,7 +97,6 @@ button{
 .content-container #bill, .content-container #people{
   width:95%;
   height: 2.3rem;
-  border:1px solid var(--light-grayish-cyan);
   background: url("images/icon-dollar.svg") no-repeat scroll 10px 8px;
   margin-bottom: 1rem;
   background-color: var(--light-grayish-cyan2);
@@ -122,6 +124,10 @@ button{
   text-align: center;
   border: none;
   background: var(--light-grayish-cyan2);
+}
+
+#custom:hover{
+  border:3px solid var(--strong-cyan);
 }
 .choosetip-container .tip-container {
   width: 100%;
