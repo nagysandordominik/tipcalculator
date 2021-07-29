@@ -25,9 +25,9 @@
       <div class="content-container">
         <div class="selection-container">
           <h3>Bill</h3>
-          <input type="number" id="bill" placeholder="0">
+          <input type="number" id="bill" placeholder="0" onKeyPress="if(this.value.length==5) return false;">
           <h3>Select Tip %</h3>
-          <div class="choosetip-container">
+          <div class=" choosetip-container">
             <div class="tip-container">
               <button id="5" value="5">5%</button>
             </div>
@@ -44,12 +44,12 @@
               <button id="50" value="50">50%</button>
             </div>
             <div class="tip-container">
-              <input id="custom" type="number" placeholder="Custom">
+              <input id="custom" type="number" placeholder="Custom" onKeyPress="if(this.value.length==2) return false;">
             </div>
           </div>
           <h3>Number of People</h3>
           <p class="error"></p>
-          <input type="number" id="people" placeholder="0">
+          <input type="number" id="people" placeholder="0" onKeyPress="if(this.value.length==5) return false;">
         </div>
         <div class="result-container">
           <p>Tip Amount<br />
